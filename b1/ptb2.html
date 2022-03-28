@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giai phuong trinh bac 2</title>
+    <style>
+      .body-ctn {
+        text-align: center;
+      }
+      .btn-giai {
+        margin: 20px;
+      }
+      /* .btn-input {
+        border: none;
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="body-ctn">
+      <h1>bài tập giải phương trình bậc hai</h1>
+      <form method="post">
+        <br />Nhap gia tri a:
+        <input type="text" name="a" value="" />
+        <br />
+        Nhap gia tri b:
+        <input type="text" name="b" value="" />
+        <br />Nhap gia tri c:
+        <input type="text" name="c" value="" />
+        <div>
+          <div class="btn-giai">
+            <input type="button" value="giai" onClick="giai(this.form)" />
+          </div>
+          <div>
+            <div>Đáp số:</div>
+
+            <div class="div-input">
+              <input type="text" name="x" value="" class="btn-input" />
+              <input type="text" name="y" value="" class="btn-input" />
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
