@@ -1,8 +1,16 @@
 
-public class JavaCore {
+// To use the sqrt function
 
-	public static void main(String[] args) {
-		System.out.println("nguyen van tu");
+interface JavaCore {
+	void getArea();
+
+	// calculate the perimeter of a Polygon
+	default void getPerimeter(int... sides) {
+		int perimeter = 0;
+		for (int side : sides) {
+			perimeter += side;
+		}
+
+		System.out.println("Perimeter: " + perimeter);
 	}
-
 }
